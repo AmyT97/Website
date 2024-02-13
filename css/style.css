@@ -1,0 +1,273 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.website-logo {
+    width: 100px;
+    height: 100px;
+    /* max-width: 10%;
+    max-height: 10%; */
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    padding-bottom: 0px;
+    background-color: #FF6347;
+}
+
+.main-nav a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #042E17;
+}
+
+li {
+    list-style-type: none;
+}
+
+.main-nav {
+    /* width: 100%;
+    padding: 16px 0; */
+    width: 70%;
+    padding: 2rem;
+    font-weight: 700;
+    background-color: #1DBE02
+    ;
+}
+
+.main-ul {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-evenly;
+    
+}
+
+/* .soil-footer{
+    height: 225px;
+    
+} */
+
+
+.footer{
+    background-color: #301E13;
+    color: #FFFF53;
+    text-align: center;
+    padding: 50px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;   
+}
+
+/* .footer-section{
+    align-items: flex-end;
+
+} */
+
+/* .dead-space{
+    height: 150px;
+    width: 100%;
+} */
+
+.homepage-map {
+    display: flex;
+    align-items: center;
+}
+
+/* .homepage-hero {
+    width: 100%;
+    max-height:700px;
+    height: 700px;
+
+} */
+
+/* .hero-farm-image {
+    max-width: 100%;
+    height:200px; 
+    height: 100%;
+    width: 100%;
+
+} */
+
+/* ------------------------------------
+CSS for index.htm */
+
+
+#visit-abbington {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-image: url(../images/abbington_farm_logo.png);
+    background-position: right 10% center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.visit-abbington-header {
+    position: absolute;
+    top: 20%;
+    left: 17%;
+    font-size: 4rem;
+    color: #042E17;
+}
+
+.visit-abbington-text {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    width: 515px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #042E17;
+}
+
+
+.cambria {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    background-color: #1DBE02
+    ;
+}
+
+.main-nav-title {
+    text-decoration: none;
+    font-size: 40px;
+    color: #042E17;
+}
+
+.homepage-contents {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    background-color: rgb(228, 228, 228);
+    
+
+}
+
+.homepage-content {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+
+.homepage-image-one, .homepage-content-one {
+    width: 50%;
+    padding: 1rem;
+}
+
+.homepage-image-one img {
+    width: 100%;
+}
+
+.region-image img {
+    width: 100%;
+    box-shadow: 5px 10px 5px rgba(0,0,0,.5);
+}
+
+.region-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.region-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2426aa;
+}
+
+.region-desc {
+    text-align: justify;
+    font-size: 1rem;
+}
+
+/* ------------------------ */
+/* CSS for contact.html */
+
+#form {
+    width: 100%; 
+    padding: 1rem 0;   
+}
+
+.form-header {
+    width: 100%;
+    text-align: center;    
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.contact-form {
+    background-color: rgb(236, 236, 236);
+    border: 2px solid #000000;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label, .contact-form input, .contact-form select, .contact-form textarea {
+    padding: 0.5rem;
+    width: 90%;
+}
+
+.contact-form textarea {
+    resize: none;
+    font-size: 1rem;
+}
+
+.contact-form input:not(:placeholder-shown) {
+    padding: 1rem 0.5rem;
+    font-size: 1.25rem;
+}
+
+.contact-form input:required {
+    /* border: 1px solid rgb(6, 18, 190);
+    box-shadow: 1px 1px 4px 4px rgb(110, 155, 238); */
+    border: 1px solid #042E17;
+        box-shadow: 1px 1px 4px 4px #ffffff
+
+
+
+}
+
+
+.contact-form input[type=submit] {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    width: 20%;
+    border-radius: 10px;
+    background-color: #2426aa;
+    color: #ffffff;    
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.contact-form label {
+    font-size: 1rem;
+    font-weight: bold;
+}
